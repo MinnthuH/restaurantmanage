@@ -143,4 +143,14 @@ class MenuController extends Controller
 
     } // End Delete Menu Method
 
+
+
+    ////////////////////Search by Category Ajax////////////
+    public function GetMenuByCategory($categoryId)
+{
+    $menus = Menu::where('category_id', $categoryId)->get();
+    return response()->json($menus);
+}
+
+
 }

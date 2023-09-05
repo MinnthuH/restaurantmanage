@@ -55,6 +55,7 @@
 
                                     <div class="col-lg-3 col-md-3 col-sm-6 col-6 mt-3">
                                         <div class="card product-box">
+                                            <a href="{{ route('add.order',$item->id) }}" style="text-decoration: none">
                                             <div class="card-body">
                                                 <div class="bg-secondary">
                                                     <img src="{{ asset('backend/assets/icons/table.png') }}" alt="product-pic" class="img-fluid" width="150" height="150" />
@@ -67,8 +68,10 @@
                                                     </div> <!-- end row -->
                                                 </div> <!-- end product info-->
                                             </div>
+                                        </a>
                                         </div> <!-- end card-->
                                     </div> <!-- end col-->
+
                                     @endforeach
                                 </div>
                                 </div>

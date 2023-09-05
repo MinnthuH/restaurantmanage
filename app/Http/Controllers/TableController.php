@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Carbon\Carbon;
+use App\Models\Menu;
 use App\Models\Table;
 use Illuminate\Http\Request;
 
@@ -70,12 +71,5 @@ class TableController extends Controller
         return redirect()->route('all.tables')->with($noti);
     } // End Delete Table Method
 
-
-
-    /////////////////Order////////////////
-    public function Order(){
-        $tables = Table::latest()->get();
-        return view('order.index',compact('tables'));
-    } // End Order Method
 
 }

@@ -10,7 +10,7 @@
                             <i class="fe-airplay me-1"></i> Tables <div class="arrow-down"></div>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="topnav-dashboard">
-                            <a href="#" class="dropdown-item">Tables</a>
+                            <a href="{{ route('order') }}" class="dropdown-item">Tables</a>
 
                         </div>
                     </li>

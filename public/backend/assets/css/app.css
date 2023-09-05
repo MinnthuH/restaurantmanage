@@ -5,25 +5,25 @@
   font-family: "Cerebri Sans,sans-serif";
   src: url("../fonts/cerebrisans-light.eot");
   src: local("Cerebri-sans Light"), url("../fonts/cerebrisans-light.woff") format("woff");
-  font-weight: 300;
+  font-weight: 500;
 }
 @font-face {
   font-family: "Cerebri Sans,sans-serif";
   src: url("../fonts/cerebrisans-regular.eot");
   src: local("Cerebri-sans Regular"), url("../fonts/cerebrisans-regular.woff") format("woff");
-  font-weight: 400;
+  font-weight: 700;
 }
 @font-face {
   font-family: "Cerebri Sans,sans-serif";
   src: url("../fonts/cerebrisans-medium.eot");
   src: local("Cerebri-sans Medium"), url("../fonts/cerebrisans-medium.woff") format("woff");
-  font-weight: 500;
+  font-weight: 600;
 }
 @font-face {
   font-family: "Cerebri Sans,sans-serif";
   src: url("../fonts/cerebrisans-semibold.eot");
   src: local("Cerebri-sans Semibold"), url("../fonts/cerebrisans-semibold.woff") format("woff");
-  font-weight: 600;
+  font-weight: 700;
 }
 @font-face {
   font-family: "Cerebri Sans,sans-serif";
@@ -5285,10 +5285,10 @@ body[data-theme=dark] .auth-logo .logo-dark {
 }
 /*!
  * Waves v0.7.6
- * http://fian.my.id/Waves 
- * 
- * Copyright 2014-2018 Alfiana E. Sibuea and other contributors 
- * Released under the MIT license 
+ * http://fian.my.id/Waves
+ *
+ * Copyright 2014-2018 Alfiana E. Sibuea and other contributors
+ * Released under the MIT license
  * https://github.com/fians/Waves/blob/master/LICENSE */
 .waves-effect {
   position: relative;
